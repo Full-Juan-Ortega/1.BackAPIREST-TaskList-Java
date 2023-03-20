@@ -1,11 +1,10 @@
-package com.autenticacion.modelos.controladores;
+package com.autenticacion.controladores;
 
 import com.autenticacion.modelos.Usuario;
-import com.autenticacion.modelos.repositorios.UsuarioRepository;
+import com.autenticacion.repositorios.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.http.converter.json.GsonBuilderUtils;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
@@ -16,9 +15,6 @@ import com.autenticacion.servicios.UsuarioService;
 
 import jakarta.validation.Valid;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
 

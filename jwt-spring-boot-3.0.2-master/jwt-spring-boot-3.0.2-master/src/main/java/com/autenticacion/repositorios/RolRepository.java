@@ -1,4 +1,4 @@
-package com.autenticacion.modelos.repositorios;
+package com.autenticacion.repositorios;
 
 import java.util.Optional;
 import org.springframework.data.repository.CrudRepository;

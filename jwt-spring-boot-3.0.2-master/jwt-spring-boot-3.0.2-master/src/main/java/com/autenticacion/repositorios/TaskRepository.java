@@ -1,8 +1,6 @@
-package com.autenticacion.modelos.repositorios;
+package com.autenticacion.repositorios;
 
 import com.autenticacion.modelos.Task;
-import org.springframework.boot.context.event.ApplicationReadyEvent;
-import org.springframework.context.event.EventListener;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

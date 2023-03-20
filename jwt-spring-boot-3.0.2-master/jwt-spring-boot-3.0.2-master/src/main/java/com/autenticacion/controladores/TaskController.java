@@ -1,9 +1,9 @@
-package com.autenticacion.modelos.controladores;
+package com.autenticacion.controladores;
 
 
 import com.autenticacion.modelos.Task;
 
-import com.autenticacion.modelos.repositorios.TaskRepository;
+import com.autenticacion.repositorios.TaskRepository;
 import com.autenticacion.servicios.TaskService;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
